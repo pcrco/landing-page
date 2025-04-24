@@ -1,8 +1,81 @@
 .navbar {
-    background-color: lightgrey; 
-    border-radius: 15px;
-    box-shadow: 0 4px 10px black;
+    background-color: darkgrey; 
     padding: 20px;
     max-width: 300px;
     text-align: center;
+}
+
+.navbar a {
+    color: white;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: blue;
+}
+
+.landing-container {
+    background-color: lightgrey;
+    text-align: center;
+    padding: 20px;
+}
+
+.header {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: red;
+    margin-bottom: 20px;
+}
+
+.product-subtitle {
+    font-size:small;
+    color:lightslategray;
+}
+
+.hero-image {
+    max-width: 50%;
+    border-radius: 20%;
+    margin-bottom: 30px;
+}
+
+.hero-text {
+    position:absolute;
+    top:30%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background-color:#00000080;
+    color: white;
+}
+
+.product-description {
+    font-size: small;
+    color:grey;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: lime;
+    color: white;
+    border-radius: 15%;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: greenyellow;
+}
+
+.main-footer {
+    background-color: darkgray;
+    padding: 20px;
+    text-align: center;
+    color: blue;
+
+}
+
+.main-footer a {
+    color: white;
+    transition: color 0.3s;
+}
+
+.main-footer a:hover {
+    color: white;
 }
